@@ -1,0 +1,117 @@
+:root {
+  --main-bg-color: rgb(17, 22, 27);
+}
+
+a, u {
+  text-decoration: none;
+}
+
+#pane a {
+  color: var(--main-bg-color);
+}
+
+#main a {
+  color: #dfe1e2;
+}
+
+#pane a:hover {
+  color: rgb(35, 85, 87);
+}
+
+body {
+  background-color: var(--main-bg-color);
+  font-family: 'Manrope', sans-serif;
+  overflow-x:hidden
+}
+
+#logo {
+  height: 320px;
+}
+
+
+.bg-pane {
+  background-color: rgb(68, 158, 152);
+  background-image: url('/img/pane.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  color: var(--main-bg-color);
+}
+
+.bg-mybody {
+  background-color: var(--main-bg-color);
+}
+
+.text-head {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
+
+.text-head.text-sm {
+  font-size: 1.5rem;
+  line-height: normal;
+}
+
+.text-head.text-md {
+  font-size: 1.7rem;
+  line-height: 1.8rem;
+}
+
+.links i {
+  font-size: 1rem;
+}
+
+.links span {
+  font-weight: 700;
+  font-size: 1.27rem;
+}
+
+.head-text {
+  font-size: 3.3rem;
+  font-weight: 600;
+}
+
+.repo-border {
+  border: solid rgb(19, 31, 41);
+  border-width: 0.17rem;
+  border-radius: 0.4rem;
+  transition: all .2s ease-in-out;
+}
+
+.repo-border:hover {
+  border: solid rgb(19, 31, 41);
+  border-width: 0.17rem;
+  border-radius: 0.4rem;
+  box-shadow: 0px 0px 40px rgba(6, 9, 12, 0.61);
+  transform: scale(1.05);
+}
+
+.repo-head {
+  font-weight: 600;
+  font-size: 2.1rem;
+}
+
+.repo-text {
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
+
+.repo-sub {
+  font-weight: 600;
+  font-size: 1rem;
+  vertical-align: text-top;
+}
+
+.myspinner {
+  height: 5rem;
+  width: 5rem;
+  border-width: 0.5rem;
+  border-radius: 5rem;
+}
+
+.myimg {
+  height: 8rem;
+}

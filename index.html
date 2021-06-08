@@ -1,139 +1,84 @@
- <!DOCTYPE html>
- <html>
+<html lang="en">
 
- <head>
-     <meta charset="UTF-8">
-     <title>Shreeyans Bahadkar</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Shreeyans Bahadkar" />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/37953798?v=4" />
+  <meta property="og:description" content="My Portfolio. Flutter & Web Developer" />
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/37953798?v=4">
+  <title>Shreeyans</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-     <link rel="manifest" href="/site.webmanifest">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
-     <!-- Bootstrap Files -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
+<body onload="loadRepo()">
+  <div class="row h-100">
+    <div class="col col-12 col-lg-4 col-xl-3 pt-lg-5 bg-pane rounded-pane" id="pane">
+      <div class="mt-5 pt-2 text-center user-select-none sticky-top">
+        <img src="img/logo.png" alt="Logo" id="logo" class="img-fluid p-5 user-select-none">
+        <br>
+        <text class="text-head">Shreeyans<br>Bahadkar</text>
+        <br>
+        <a href="https://github.com/ShreeyansB"><text class="text-head text-sm me-2">@ShreeyansB</text></a>
+        <br><br><br>
+        <h3 class="text-head text-md px-4">Student, <br>Flutter & Web Developer</h3>
+        <div class="row links mt-5">
+          <div class="col-12 ">
+            <a href="https://shreeyansb.github.io/">
+              <i class="fas fa-link"></i>
+              <span class="">&nbsp;shreeyansb.github.io</span>
+            </a>
+          </div>
+          <div class="col-12 ">
+            <a href="https://jaipur.manipal.edu/">
+              <i class="fas fa-university"></i>
+              <span class="">&nbsp;Manipal University Jaipur</span>
+            </a>
+          </div>
+          <div class="col-12 ">
+            <a href="https://www.google.co.in/maps/place/Maharashtra/">
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="">&nbsp;Maharashtra, India</span>
+            </a>
+          </div>
+          <div class="col-12 ">
+            <a href="https://t.me/ballisticswami">
+              <i class="fab fa-telegram-plane"></i>
+              <span class="">&nbsp;@ballisticswami</span>
+            </a>
+          </div>
+        </div>
+        <br><br><br>
+      </div>
+    </div>
+    <div class="col col-12 col-lg-8 col-xl-9 bg-mybody text-light pt-5 px-5" id="main">
+      <h1 class="head-text mt-5 mb-4 ms-3 ps-2">My Work.</h1>
+      <div class="row ps-4 pe-5" id="repo-row">
+        <div class="col col-12 pt-5 mt-5 text-center">
+          <br><br><br><br><br>
+          <div class="spinner-border text-light pt-5 mt-5 myspinner" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="row ps-4 pe-5" id="interests-row">
+    </div>
+    <br><br><br><br>
+  </div>
+  </div>
 
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="js/repo.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+</body>
 
-     <!-- My Files -->
-     <link rel="stylesheet" href="resources/css/styles.css">
- </head>
-
- <body>
-     <nav class="navbar fixed-top navbar-dark" style="background-color: #000;">
-         <div class="container-fluid">
-             <a class="navbar-brand" href="#">
-                 <img src="/resources/img/logo.png" alt="" height="40" class="d-inline-block align-top">
-                 <div class="navbar-nav" id="github">
-                     <a class="nav-link" href="https://github.com/ShreeyansB"><img src="resources/img/github.png" height="40"></a>
-                 </div>
-
-             </a>
-         </div>
-     </nav>
-     <div class="container" id="body-box">
-         <h1 id="head-txt">
-             I design apps,<br>currently learning.
-         </h1>
-     </div>
-     <div class="col">
-         <div class="row">
-             <div class="card text-white bg-dark mb-3" style="width: 25rem;background-color: #fff;">
-                 <img src="resources/img/bonk_chat.png" class="card-img-top img-responsive" alt="..." id="app-img">
-                 <div class="card-body mx-0 px-0">
-                     <h5 class="card-title">Bonk Chat</h5>
-                     <p class="card-text">A simple chatroom app made with Firebase</p>
-                     <a href="https://github.com/ShreeyansB/bonk-chat" class="stretched-link" style="color: inherit"></a>
-                 </div>
-             </div>
-
-             <div class="card text-white bg-dark mb-3" style="width: 25rem;background-color: #fff;">
-                 <img src="resources/img/clima.png" class="card-img-top img-responsive" alt="..." id="app-img">
-                 <div class="card-body mx-0 px-0">
-                     <h5 class="card-title">Clima</h5>
-                     <p class="card-text">A weather app made using OpenWeatherMap API</p>
-                     <a href="https://github.com/ShreeyansB/clima" class="stretched-link" style="color: inherit"></a>
-                 </div>
-             </div>
-
-             <div class="card text-white bg-dark mb-3" style="width: 25rem;background-color: #fff;">
-                 <img src="resources/img/bmi.png" class="card-img-top img-responsive" alt="..." id="app-img">
-                 <div class="card-body mx-0 px-0">
-                     <h5 class="card-title">BMI Calculator</h5>
-                     <p class="card-text">An app to calculate BMI</p>
-                     <a href="https://github.com/ShreeyansB/bmi-calculator-flutter" class="stretched-link" style="color: inherit"></a>
-                 </div>
-             </div>
-
-             <div class="card text-white bg-dark mb-3" style="width: 25rem;background-color: #fff;">
-                 <img src="resources/img/coin.png" class="card-img-top img-responsive" alt="..." id="app-img">
-                 <div class="card-body mx-0 px-0">
-                     <h5 class="card-title">Coin Ticker</h5>
-                     <p class="card-text">An app to disyplay cryptocurrency exchange rates</p>
-                     <a href="https://github.com/ShreeyansB/bitcoin-ticker" class="stretched-link" style="color: inherit"></a>
-                 </div>
-             </div>
-
-         </div>
-     </div>
-     <div class="col" id="end-col">
-         <h2 id="skills">My Skills</h2>
-         <div class="container-fluid no-pad">
-             <button type="button" class="btn btn-outline btn-red">
-                 <img src="resources/svg/java.svg" class="img-fil-red">Java
-             </button>
-             <button type="button" class="btn btn-outline btn-lblu">
-                 <img src="resources/svg/c.svg" class="img-fil-lblu">C/C++
-             </button>
-             <button type="button" class="btn btn-outline btn-grn">
-                 <img src="resources/svg/python.svg" class="img-fil-grn">Python
-             </button>
-             <button type="button" class="btn btn-outline btn-pink">
-                 <img src="resources/svg/html-coding.svg" class="img-fil-pink">HTML
-             </button>
-             <button type="button" class="btn btn-outline btn-org">
-                 <img src="resources/svg/css-3.svg" class="img-fil-org">CSS
-             </button>
-             <button type="button" class="btn btn-outline btn-teal">
-                 <img src="resources/svg/dartlang-icon.svg" class="img-fil-teal">Dart
-             </button>
-             <button type="button" class="btn btn-outline btn-purp">
-                 <img src="resources/svg/iconfinder_flutter_4691465.svg" class="img-fil-purp">Flutter
-             </button>
-             <button type="button" class="btn btn-outline btn-yel">
-                 <img src="resources/svg/adobe-illustrator.svg" class="img-fil-yel">Illustrator
-             </button>
-             <button type="button" class="btn btn-outline btn-blu">
-                 <img src="resources/svg/adobe-photoshop.svg" class="img-fil-blu">Photoshop
-             </button>
-         </div>
-         <div class="container-fluid no-pad no-pad-msg">
-             <h2 id="skills">Contact Me</h2>
-             <div class="form-floating mb-3">
-                 <input type="text" class="form-control" id="floatingInput" placeholder="Your Name">
-                 <label for="floatingInput">Name</label>
-             </div>
-             <div class="form-floating mb-3">
-                 <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                 <label for="floatingInput">Email</label>
-             </div>
-             <div class="form-floating mb-3">
-                 <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2" style="height: 12em"></textarea>
-                 <label for="floatingTextarea2">Message</label>
-             </div>
-
-         </div>
-         <button type="button" class="btn btn-outline-dark">Send</button>
-         <br>
-         <br>
-         <br>
-         <br>
-     </div>
- </body>
-
- </html>
+</html>
