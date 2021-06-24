@@ -21,13 +21,17 @@ a, u {
 body {
   background-color: var(--main-bg-color);
   font-family: 'Manrope', sans-serif;
-  overflow-x:hidden
+  overflow-x: hidden;
 }
 
 #logo {
   height: 320px;
 }
 
+.mysticky {
+  position: sticky;
+  top: 11%;
+}
 
 .bg-pane {
   background-color: rgb(68, 158, 152);
