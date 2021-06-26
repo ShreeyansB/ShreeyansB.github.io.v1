@@ -1,4 +1,4 @@
-const repos = ['tasks', 'muj-dms', 'bitcoin-ticker', 'bonk-chat', 'bubby-tasks', 'bubby-weather']
+const repos = ['tasks', 'muj-dms', 'bitcoin-ticker', 'bonk-chat', 'fontgen', 'bubby-weather']
 
 const getRepo = async (name) => {
   const response = await fetch('https://api.github.com/repos/shreeyansb/' + encodeURIComponent(name));
